@@ -9,7 +9,7 @@ A responsive Product Landing Page designed with HTML and CSS.
 - Responsive Web Design (The page looks great in any device).
 - Embedded video.
 
-![productlanding] (https://raw.githubusercontent.com/anferebu/PRODUCT-LANDING-PAGE-WITH-EMBEDDED-VIDEO/master/productlanding.jpg)
+![productlanding](https://raw.githubusercontent.com/anferebu/PRODUCT-LANDING-PAGE-WITH-EMBEDDED-VIDEO/master/productlanding.jpg)
 
 <strong>INSTRUCTIONS</strong>
 
