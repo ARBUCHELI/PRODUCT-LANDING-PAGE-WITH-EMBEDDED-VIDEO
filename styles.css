@@ -1,0 +1,805 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+html {
+    overflow-x: hidden;
+    background-color: #F4F3EF;
+    z-index: -1;
+}
+
+body {
+    background-color: #F4F3EF;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+#logo {
+    padding-top: 1em;
+}
+
+#header {
+    position: fixed;
+    background-color: #F4F3EF;
+    padding-bottom: 0.1em;
+    height: 180px;
+    width: 2000px;
+}
+
+#header-img {
+    width: 275px;
+    height: 142px;
+    position: fixed;
+}
+
+#nav-bar {
+    padding-left: 300px;
+}
+
+#foot-info {
+    text-align: right;
+}
+
+#copyright {
+    text-align: right;
+    padding-right: 3em;
+    font-size: 0.8em;
+    color: #696969;
+}
+
+#Features-section {
+    padding-bottom: 6em;
+}
+
+#features li {
+    display: inline;
+}
+
+#foot-info li {
+    display: inline;
+}
+
+#features li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#foot-info li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    padding-right: 3em;
+}
+
+.navlink {
+    padding-right: 1em;
+}
+
+.navlink:last-child {
+    padding-right: 40px;
+}
+
+#content {
+    padding-top: 14em;
+    font-size: 0.8em;
+    text-align: center;
+    color: #282828;
+}
+
+#forma {
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+}
+
+#email {
+    width: 20em;
+    height: 25px;
+    padding-left: 0.4em;
+}
+
+#boton {
+    text-align: center;
+}
+
+#submit {
+    text-align: center;
+    font-weight: bold;
+    background-color: #FFD700;
+    width: 10em;
+    height: 40px;
+    border: none;
+    font-size: 1em;
+}
+
+#Features {
+    padding-top: 7em;
+    padding-bottom: 5em;
+}
+
+#single-page-apps {
+    display: inline-grid;
+    grid-template-columns: 200px 800px;
+    grid-template-rows: 50px;
+}
+
+#responsive-design {
+    display: inline-grid;
+    grid-template-columns: 200px 800px;
+    grid-template-rows: 50px;
+    padding-top: 3em;
+}
+
+#backend {
+    display: inline-grid;
+    grid-template-columns: 200px 800px;
+    grid-template-rows: 50px;
+    padding-top: 3em;
+}
+
+#spalogo {
+    display: inline;
+    width: 150px;
+    text-align: right;
+}
+
+#rwdlogo {
+    display: inline;
+    width: 75px;
+    text-align: right;
+    padding-left: 3em;
+}
+
+#bwdlogo {
+    display: inline;
+    width: 150px;
+    text-align: right;
+}
+
+#text1 {
+    text-align: left;
+}
+
+#text2 {
+    text-align: left;
+}
+
+#text3 {
+    text-align: left;
+}
+
+#description1 {
+    font-size: 18px;
+}
+
+#description2 {
+    font-size: 18px;
+}
+
+#description3 {
+    font-size: 18px;
+}
+
+#subtitulo {
+    display: inline;
+}
+
+#how-it-works {
+    text-align: center;
+    display: inline;
+}
+
+#Pricing {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+}
+
+#level {
+    background-color: #ddd;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+div #caja {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    margin: 0 2em 0 2em;
+}
+
+#apps-una-pagina {
+    text-align: center;
+}
+
+#apps-php {
+    text-align: center;
+}
+
+#design {
+    text-align: center;
+}
+
+#spa {
+    width: 300px;
+    text-align: center;
+}
+
+#spa3 {
+    width: 300px;
+    height: 393px;
+    text-align: center;
+}
+
+#precios {
+    font-size: 1.5em;
+}
+
+#lista {
+    list-style-type: none;
+    text-align: center;
+    padding-right: 2em;
+    padding-top: 1em;
+}
+
+#boton {
+    padding-top: 1em;
+}
+
+footer {
+    background-color: #ddd;
+    height: 5em;
+    padding-top: 0.5em;
+}
+
+#pie {
+    padding-top: 2em;
+    margin: 0 5em 0 5em;
+}
+
+button {
+    background-color: #FFD700;
+    width: 9em;
+    height: 3.5em;
+    border: solid #D3D3D3;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 1125px) {  
+    div #caja {
+        width: 250px;
+        height: 250px;
+    }
+    #nav-bar {
+        padding-right: 500px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #nav-bar {
+        padding-right: 550px;
+    }
+}
+
+@media screen and (max-width: 1075px) {
+    #nav-bar {
+        padding-right: 600px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    #nav-bar {
+        padding-right: 650px;
+    }
+    #spalogo {
+        padding-left: 3em;
+    }
+    #rwdlogo {
+        padding-left: 6em;
+    }
+    #bwdlogo {
+        padding-left: 3em;
+    }
+
+}
+
+@media screen and (max-width: 1025px) {
+    #nav-bar {
+        padding-right: 700px;
+    }
+    #text1 {
+        width: 55em;
+    }
+    #text2 {
+        width: 55em;
+    }
+    #text3 {
+        width: 55em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #nav-bar {
+        padding-right: 750px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    #nav-bar {
+        padding-right: 800px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #nav-bar {
+        padding-right: 850px;
+    }
+    #text1 {
+        width: 50em;
+    }
+    #text2 {
+        width: 50em;
+    }
+    #text3 {
+        width: 50em;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    #spa {
+        width: 200px;
+    }
+     #spa3 {
+        width: 200px;
+        height: 270px;
+    }
+    #Pricing {
+        padding-top: 8em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #nav-bar {
+        padding-right: 900px;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    #nav-bar {
+        padding-right: 950px;
+    }
+    #text1 {
+        width: 45em;
+    }
+    #text2 {
+        width: 45em;
+    }
+    #text3 {
+        width: 45em;
+    }
+    div #caja {
+        width: 200px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #nav-bar {
+        padding-right: 1000px;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    #nav-bar {
+        padding-right: 1050px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #nav-bar {
+        padding-right: 1100px;
+    }
+}
+
+@media screen and (max-width: 795px) {
+     #text1 {
+        width: 42em;
+    }
+    #text2 {
+        width: 42em;
+    }
+    #text3 {
+        width: 42em;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    #nav-bar {
+        padding-right: 1150px;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    #text1 {
+        width: 35em;
+    }
+    #text2 {
+        width: 35em;
+    }
+    #text3 {
+        width: 35em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #nav-bar {
+        padding-right: 1200px;
+    }
+    div #caja {
+        width: 290px;
+        height: 300px;
+    }
+    #Pricing {
+        display: block;
+        padding-left: 15.5em;
+    }
+    #boxbox {
+        padding-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    #nav-bar {
+        padding-right: 1250px;
+    }
+    #boxbox {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #nav-bar {
+        padding-right: 1300px;
+    }
+    .nav-link {
+    padding-right: 1em;
+    }
+    #Pricing {
+        display: block;
+        padding-left: 12em;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    #video {
+        width: 450px;
+    }
+    #nav-bar {
+        padding-right: 1350px;
+    }
+     #spa {
+        width: 150px;
+    }
+     #spa3 {
+        width: 150px;
+        height: 200px;
+    }
+    #text1 {
+        width: 30em;
+    }
+    #text2 {
+        width: 30em;
+    }
+    #text3 {
+        width: 30em;
+    }
+    #webtit {
+        font-size: 1em;
+    }
+    #Pricing {
+        padding-top: 1em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #nav-bar {
+        padding-right: 1400px;
+    }
+    #features li {
+        display:table;
+        margin:0px auto 0px auto;
+    }
+    #text1 {
+        width: 25em;
+    }
+    #text2 {
+        width: 25em;
+    }
+    #text3 {
+        width: 25em;
+    }
+    #Features-section {
+    padding-top: 3em;
+    }
+    #Pricing {
+        display: block;
+        padding-left: 12em;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    #nav-bar {
+        padding-right: 1450px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #Pricing {
+        display: block;
+        padding-left: 10em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #nav-bar {
+        padding-right: 1500px;
+    }
+    #header {
+        display: block;
+        height: 300px;
+    }
+    #logo {
+        display: block;
+        padding-left: 10em;
+    }
+    #nav-bar {
+        display: block;
+        padding-top: 10em;
+        padding-left: 6em;
+    }
+    #content {
+        padding-top: 22em;
+    }
+    #Pricing {
+        display: block;
+        padding-left: 9em;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    #logo {
+        padding-left: 8em;
+    }
+    #nav-bar {
+        padding-left: 2em;
+    }
+    #text1 {
+        width: 20em;
+    }
+    #text2 {
+        width: 20em;
+    }
+    #text3 {
+        width: 20em;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    #logo {
+        padding-left: 7.5em;
+    }
+    #nav-bar {
+        padding-left: 1em;
+    }
+    #single-page-apps {
+    padding-bottom: 7em;
+   }
+
+   #responsive-design {
+    padding-bottom: 9em;
+   }
+
+   #backend {
+    padding-bottom: 7em;
+   }
+   #Pricing {
+        display: block;
+        padding-left: 8em;
+    }
+}
+
+@media screen and (max-width: 555px) {
+   #single-page-apps {
+    padding-bottom: 7em;
+   }
+
+   #responsive-design {
+    padding-bottom: 9em;
+   }
+
+   #backend {
+    padding-bottom: 7em;
+   }
+   #Pricing {
+        display: block;
+        padding-left: 7em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #video {
+        width: 300px;
+    }
+    #spalogo {
+        display: none;
+    }
+    #rwdlogo {
+        display: none;
+    }
+    #bwdlogo {
+        display: none;
+    }
+    #single-page-apps {
+    padding-bottom: 7em;
+    padding-left: 11em;
+   }
+
+   #responsive-design {
+    padding-bottom: 9em;
+    padding-left: 11em;
+   }
+
+   #backend {
+    padding-bottom: 7em;
+    padding-left: 11em;
+   }
+   #Pricing {
+        display: block;
+        padding-left: 6em;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    #logo {
+        padding-left: 6em;
+        width: 10em;
+    }
+    #nav-bar {
+        padding-left: 0em;
+        width: 29em;
+    }
+    #header {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 475px) {
+     #spa {
+        width: 120px;
+    }
+     #spa3 {
+        width: 120px;
+        height: 160px;
+    }
+    #Pricing {
+        display: block;
+        padding-left: 5em;
+    }
+    #Pricing {
+        padding-top: 2em;
+    }
+    #how-it-works {
+        padding-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 469px) {
+    #single-page-apps {
+    padding-bottom: 7em;
+    padding-left: 9em;
+   }
+
+   #responsive-design {
+    padding-bottom: 9em;
+    padding-left: 9em;
+   }
+
+   #backend {
+    padding-bottom: 7em;
+    padding-left: 9em;
+   }
+}
+
+@media screen and (max-width: 434px) {
+    #Pricing {
+        display: block;
+        padding-left: 3em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #logo {
+        padding-left: 4em;
+        width: 10em;
+    }
+    #nav-bar {
+        padding-left: 0em;
+        width: 25em;
+    }
+    #header {
+        text-align: left;
+    }
+    #single-page-apps {
+    padding-bottom: 7em;
+    padding-left: 8em;
+   }
+
+   #responsive-design {
+    padding-bottom: 9em;
+    padding-left: 8em;
+   }
+
+   #backend {
+    padding-bottom: 7em;
+    padding-left: 8em;
+   }
+}
+
+
+@media screen and (max-width: 383px) {
+    #single-page-apps {
+    padding-bottom: 7em;
+    padding-left: 6em;
+   }
+
+   #responsive-design {
+    padding-bottom: 9em;
+    padding-left: 6em;
+   }
+
+   #backend {
+    padding-bottom: 7em;
+    padding-left: 6em;
+   }
+}
+
+@media screen and (max-width: 370px) {
+    #logo {
+        padding-left: 2em;
+        width: 10em;
+    }
+    #nav-bar {
+        padding-left: 0em;
+        width: 21em;
+    }
+    #header {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    #logo {
+        padding-left: 1em;
+        width: 10em;
+    }
+    #nav-bar {
+        padding-left: 0em;
+        width: 19em;
+    }
+    #header {
+        text-align: left;
+    }
+}
+
+
+
+    
