@@ -16,4 +16,4 @@ A responsive Product Landing Page designed with HTML and CSS.
 1. Download and unzip the repository folder.
 2. Open the index.html file in Google Chrome to see the project.
 
-#AUTHOR: ANDRÉS R. BUCHELI.
+# AUTHOR: ANDRÉS R. BUCHELI.
